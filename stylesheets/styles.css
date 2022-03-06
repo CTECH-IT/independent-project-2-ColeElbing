@@ -64,3 +64,9 @@ body{
 .main-content{
     flex: 1 1 auto;
 }
+
+.paragraph_text{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: rgba(0, 0, 0, 0.9) 1px 0px 2px;
+}
