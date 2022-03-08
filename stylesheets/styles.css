@@ -2,11 +2,12 @@ html, body{
     height: 100%;
 }
 
-body{
+.body{
     background: lightgray;
     display: flex;
     flex-direction: column;
-    font-size:15px;
+    font-family: 'Exo';
+    font-size: 22px;
 }
 
 .detail-image-container{
@@ -26,8 +27,10 @@ body{
 
 .logo-text{
     background-color: darkgrey;
-    font-size: 37px;
+    font-size: 50px;
     font-family: "Exo";
+    margin-top: 0%;
+    text-align: center;
 }
 
 .topic-list{
@@ -35,6 +38,7 @@ body{
     flex: 1 1 auto;
     list-style: none;
     order: 2;
+    font-size: 35px;
 
     overflow-x: auto;
     padding: 0;
@@ -66,7 +70,7 @@ body{
 }
 
 .paragraph_text{
-    font-size: 20px;
-    text-shadow: rgba(0, 0, 0, 0.9) 1px 0px 2px;
+    font-size: 30px;
+    display: flex;
 }
 
