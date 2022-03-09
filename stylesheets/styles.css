@@ -3,7 +3,6 @@ html, body{
 }
 
 .body{
-    background: lightgray;
     display: flex;
     flex-direction: column;
     font-family: 'Exo';
@@ -26,11 +25,11 @@ html, body{
 }
 
 .logo-text{
-    background-color: darkgrey;
     font-size: 50px;
     font-family: "Exo";
     margin-top: 0%;
     text-align: center;
+    margin-top: 2%;
 }
 
 .topic-list{
@@ -49,7 +48,7 @@ html, body{
     border: 1px solid rgb(0, 0, 0);
     border: 1px solid rgba(0, 0, 0, 0.8);
     text-shadow: rgba(0, 0, 0, 0.9) 1px 0px 2px;
-    background-color: rgb(255, 253, 253);
+    background-color: darkgrey;
     display: inline-block;
     margin: 0;
     padding: 0.4em 1em;
@@ -70,7 +69,11 @@ html, body{
 }
 
 .paragraph_text{
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
 }
 
