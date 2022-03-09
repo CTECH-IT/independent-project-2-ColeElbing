@@ -17,7 +17,7 @@ const topicText = {
     '</style>' +
 
     '<table style="width:100%">'+
-    '<caption><b>Cranial Nerves</b></caption>'+
+    '<caption style="background:yellow; border: 1px solid rgb(0, 0, 0); border: 1px solid rgba(0, 0, 0, 0.8); border-bottom-style: none;"><b>Cranial Nerves</b></caption>'+
     '<tr>'+
         '<td style="width:10%"> CN I </th>'+
         '<td> Olfactory </th>'+
@@ -107,7 +107,7 @@ const topicText = {
     '</style>' +
 
     '<table style="width:100%">'+
-    '<tr>'+
+    '<tr style="background-color: yellow;">'+
         '<th style="width:50%">Midbrain</th>'+
         '<th style="width:50%">Result of Injury</th>'+
     '</tr>'+
@@ -152,7 +152,7 @@ const topicText = {
     '</style>' +
 
     '<table style="width:100%">'+
-    '<tr>'+
+    '<tr style="background-color: yellow;">'+
         '<th style="width:50%">Pons</th>'+
         '<th style="width:50%">Result of Injury</th>'+
     '</tr>'+
@@ -191,7 +191,7 @@ const topicText = {
     '</style>' +
 
     '<table style="width:100%">'+
-    '<tr>'+
+    '<tr style="background-color: yellow;">' +
         '<th style="width:50%">Medulla</th>'+
         '<th style="width:50%">Result of Injury</th>'+
     '</tr>'+
@@ -220,8 +220,10 @@ const topicText = {
 
 function setChanges(text){
     'use strict';
+    $("#topicText").hide()
     let differentText = topicText[text];
     document.getElementById("topicText").innerHTML = differentText;
+    $("#topicText").fadeIn(2000)
 }
 
 function addTopicClickHandler(topic){
