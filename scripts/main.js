@@ -223,7 +223,7 @@ function setChanges(text){
     $("#topicText").hide()
     let differentText = topicText[text];
     document.getElementById("topicText").innerHTML = differentText;
-    $("#topicText").fadeIn(2000)
+    $("#topicText").fadeIn(300)
 }
 
 function addTopicClickHandler(topic){
